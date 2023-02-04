@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"kickcore"
+	"kickcore/internal/kickcore"
 	"kickcore/logging"
 	"os"
 	"os/signal"
@@ -130,7 +130,6 @@ func kickcore_server(done chan<- struct{}) {
 	done <- struct{}{}
 }
 
-
 var helpUsage = `NAME
        kickcore %s - KickCore Server (C)
 
@@ -222,4 +221,3 @@ OPTIONS
 
       -urls  Print URLs and exit.
 `
-

@@ -51,7 +51,7 @@ Request ---> | ---> |         | --- Not Exists ---> |   API   |
 - Go (version 1.7 or above)
 
 ```
-go install github.com/awolverp/kickcore/v2/cmd/kickcore@latest
+go install github.com/awolverp/kickcore@latest
 ```
 
 ## API
