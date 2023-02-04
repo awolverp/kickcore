@@ -1,9 +1,10 @@
 package logging_test
 
 import (
-	"kickcore/logging"
 	"os"
 	"testing"
+
+	"github.com/awolverp/kickcore/logging"
 )
 
 func TestLevelSystem(t *testing.T) {

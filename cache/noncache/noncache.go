@@ -2,7 +2,8 @@ package noncache
 
 import (
 	"context"
-	"kickcore/cache"
+
+	"github.com/awolverp/kickcore/cache"
 )
 
 type NonCache struct{}

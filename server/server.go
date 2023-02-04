@@ -2,14 +2,15 @@ package server
 
 import (
 	"fmt"
-	"kickcore/api"
-	"kickcore/cache"
-	"kickcore/logging"
 	"net"
 	"reflect"
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/awolverp/kickcore/api"
+	"github.com/awolverp/kickcore/cache"
+	"github.com/awolverp/kickcore/logging"
 
 	"github.com/valyala/fasthttp"
 )

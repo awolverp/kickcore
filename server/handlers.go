@@ -1,11 +1,12 @@
 package server
 
 import (
-	"kickcore/api"
-	"kickcore/cache"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/awolverp/kickcore/api"
+	"github.com/awolverp/kickcore/cache"
 
 	"github.com/valyala/fasthttp"
 )

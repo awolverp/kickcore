@@ -1,9 +1,10 @@
 package server
 
 import (
-	"kickcore/api"
 	"strconv"
 	"strings"
+
+	"github.com/awolverp/kickcore/api"
 
 	"github.com/valyala/fasthttp"
 )

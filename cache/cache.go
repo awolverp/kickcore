@@ -4,9 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"kickcore/logging"
 	"runtime"
 	"time"
+
+	"github.com/awolverp/kickcore/logging"
 )
 
 type CacheDriver interface {

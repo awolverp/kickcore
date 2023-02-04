@@ -2,8 +2,9 @@ package api
 
 import (
 	"encoding/json"
-	"kickcore/logging"
 	"time"
+
+	"github.com/awolverp/kickcore/logging"
 
 	"github.com/valyala/fasthttp"
 )

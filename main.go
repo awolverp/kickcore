@@ -3,14 +3,15 @@ package main
 import (
 	"flag"
 	"fmt"
-	"kickcore/internal/kickcore"
-	"kickcore/logging"
 	"os"
 	"os/signal"
 	"reflect"
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/awolverp/kickcore/internal/kickcore"
+	"github.com/awolverp/kickcore/logging"
 )
 
 var (

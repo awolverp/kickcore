@@ -1,4 +1,4 @@
-module kickcore
+module github.com/awolverp/kickcore
 
 go 1.16
 

@@ -3,14 +3,15 @@ package kickcore
 import (
 	"context"
 	"errors"
-	"kickcore/api"
-	"kickcore/cache"
-	"kickcore/cache/noncache"
-	"kickcore/cache/sqlite"
-	"kickcore/logging"
-	"kickcore/server"
 	"os"
 	"time"
+
+	"github.com/awolverp/kickcore/api"
+	"github.com/awolverp/kickcore/cache"
+	"github.com/awolverp/kickcore/cache/noncache"
+	"github.com/awolverp/kickcore/cache/sqlite"
+	"github.com/awolverp/kickcore/logging"
+	"github.com/awolverp/kickcore/server"
 
 	"github.com/valyala/fasthttp"
 )

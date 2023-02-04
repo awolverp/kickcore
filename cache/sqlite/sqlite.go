@@ -4,8 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"kickcore/cache"
 	"time"
+
+	"github.com/awolverp/kickcore/cache"
 
 	_ "github.com/mattn/go-sqlite3"
 )
