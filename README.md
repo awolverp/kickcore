@@ -48,7 +48,7 @@ Request ---> | ---> |         | --- Not Exists ---> |   API   |
 ## Install
 ### Build From Source
 **Requirements**
-- Go (version 1.7 or above)
+- **Go** (version 1.7 or above)
 
 ```
 go install github.com/awolverp/kickcore@latest
