@@ -167,7 +167,7 @@ func (core *Core) Serve(addr string) error {
 }
 
 var (
-	version string = "2.4.7"
+	version string = "2.4.8"
 )
 
 func Version() string { return "v" + version }
