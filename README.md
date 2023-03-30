@@ -100,6 +100,11 @@ Get weeks of a competition.
 curl "{url}/api/competition/weeks"
 ```
 
+**Query Params**
+|  Key  | Value  | Description |
+| ----- | ------ | ----------- |
+|  id   | string | Current ID of the competition |
+
 ### Competition Standing Table
 Get standing table of a competition.
 
